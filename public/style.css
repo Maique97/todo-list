@@ -1,0 +1,82 @@
+.fundo{
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    background-repeat: repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.titulo{
+    font-family: 'Lobster', cursive;
+    font-size: 70px;
+    color: white;
+    text-align: center;
+}
+.caixa-fundo {
+    background-color: rgba(255,255,255,0.3);
+    height: 100%;
+    min-height: 400px;
+    width: 90%;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.linha-principal{
+    height: 100%;
+    justify-content: center;
+}
+
+.coluna-principal1{
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+.coluna-principal2{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+.linha-todo{
+    justify-content: space-around;
+    vertical-align: middle;
+    display: flex;
+    align-self: center;
+    align-items: center;
+}
+
+.input{
+    background-color: transparent;
+    border-color: white;
+    border-radius: 5px;
+    border-style: solid;
+    width: 70%;
+    height: 40px;
+    text-align: center;
+    color: gray;
+}
+
+.input:focus {
+    outline: none !important;
+    border:solid white;
+    box-shadow: 0 0 10px white;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgba(255,255,255,0.6);
+    text-align: center;
+}
+
+.caixa-todo {
+    background-color: rgba(255,255,255,0.3);
+    height: 45px;
+    width: 90%;
+    border-radius: 10px;
+    display: flex;
+    align-self: center;
+    align-items: center;
+}
+
+.label-todo{
+    color: gray;
+    text-align: center;
+}
